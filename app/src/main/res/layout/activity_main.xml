@@ -165,20 +165,6 @@
                     android:hint="0 a 5"
                     android:inputType="numberDecimal" />
 
-                <TextView
-                    android:id="@+id/textViewDate"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:text="Fecha:" />
-
-                <EditText
-                    android:id="@+id/editTextDate"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:ems="10"
-                    android:hint="DD/MM/YYYY"
-                    android:inputType="text" />
-
                 <Button
                     android:id="@+id/button2"
                     android:layout_width="match_parent"
