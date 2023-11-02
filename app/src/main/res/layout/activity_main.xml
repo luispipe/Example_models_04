@@ -208,56 +208,16 @@
                     android:text="Consultar"
                     app:cornerRadius="5dp" />
 
+                <Space
+                    android:layout_width="match_parent"
+                    android:layout_height="5dp" />
+
                 <TableLayout
                     android:id="@+id/tableStudent"
                     android:layout_width="match_parent"
-                    android:layout_height="match_parent">
+                    android:layout_height="match_parent"
+                    android:layout_marginBottom="15dp"/>
 
-                    <TableRow
-                        android:layout_width="match_parent"
-                        android:layout_height="match_parent">
-
-                        <TextView
-                            android:id="@+id/textView6"
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:layout_weight="1"
-                            android:text="Estudiante"
-                            android:textAlignment="center"
-                            android:textSize="18sp"
-                            android:textStyle="bold" />
-
-                        <TextView
-                            android:id="@+id/textView7"
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:layout_weight="1"
-                            android:text="Curso"
-                            android:textAlignment="center"
-                            android:textSize="18sp"
-                            android:textStyle="bold" />
-
-                        <TextView
-                            android:id="@+id/textView8"
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:layout_weight="1"
-                            android:text="Nota"
-                            android:textAlignment="center"
-                            android:textSize="18sp"
-                            android:textStyle="bold" />
-
-                        <TextView
-                            android:id="@+id/textView9"
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:layout_weight="1"
-                            android:text="Fecha"
-                            android:textAlignment="center"
-                            android:textSize="18sp"
-                            android:textStyle="bold" />
-                    </TableRow>
-                </TableLayout>
             </LinearLayout>
 
         </LinearLayout>
